@@ -164,6 +164,7 @@ initialize_registers ()
   R[REG_SP] = STACK_TOP - BYTES_PER_WORD - 4096; /* Initialize $sp */
   HI = LO = 0;
   PC = 0;
+  cycleCounter = 0;
 
   CP0_BadVAddr = 0;
   CP0_Count = 0;

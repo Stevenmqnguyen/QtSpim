@@ -162,6 +162,7 @@ Q_OBJECT
     // can be highlighted.
     //
     reg_word oldR[R_LENGTH];
+    reg_word oldCycleCounter;
     mem_addr oldPC;
     reg_word oldEPC;
     reg_word oldCause;
