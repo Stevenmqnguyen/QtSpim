@@ -17,6 +17,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>????</string>
 	<key>CFBundleIconFile</key>
-	<string>NewIcon</string>
+        <string>NewIcon_Mac</string>
 </dict>
 </plist>

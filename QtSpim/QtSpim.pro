@@ -91,7 +91,7 @@ INCLUDEPATH = ../CPU ../spim ../QtSpim
 
 RESOURCES = windows_images.qrc exception.qrc
 
-win32:RC_FILE = qtspim.rc
+win32:RC_FILE += qtspim.rc
 
 
 QMAKE_YACC          = bison
@@ -226,7 +226,7 @@ macx-g++ {
   QMAKE_DEL_FILE = rm -f
   QMAKE_INFO_PLIST = macinfo.plist
 
-  ICON = NewIcon.icns
+  ICON = NewIcon_Mac.icns
 }
 
 macx-clang {
@@ -243,5 +243,5 @@ macx-clang {
   QMAKE_DEL_FILE = rm -f
   QMAKE_INFO_PLIST = macinfo.plist
 
-  ICON = NewIcon.icns
+  ICON = NewIcon_Mac.icns
 }
