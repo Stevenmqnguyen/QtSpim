@@ -5,6 +5,9 @@ build_debug/
 # Release
 build_release/
 
+## Qt ##
+QtSpim.pro.user
+
 ### C++ ###
 # Prerequisites
 *.d
