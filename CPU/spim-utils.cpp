@@ -149,6 +149,7 @@ write_startup_message ()
   write_output (message_out, "All Rights Reserved.\n");
   write_output (message_out, "SPIM is distributed under a BSD license.\n");
   write_output (message_out, "See the file README for a full copyright notice.\n");
+  write_output (message_out, "Modified for The University of Texas at Dallas by Steven Nguyen.\n");
 }
 
 

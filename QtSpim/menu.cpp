@@ -857,7 +857,7 @@ void SpimView::help_AboutSPIM()
     QMessageBox box(QMessageBox::NoIcon,
                     "About QtSpim",
                     QString("<span style='font-size: 16pt;'>"
-                            "<center><strong>QtSpim</strong></center>"
+                            "<center><strong>QtSpim UTD</strong></center>"
                             "<center><img src=':/icons/qtspim.png'>"
                             "<span style='font-size: 10pt;'>")
                     + QString("<p>") + QString(SPIM_VERSION) + QString("</p>")
@@ -866,6 +866,7 @@ void SpimView::help_AboutSPIM()
                                "<p>SPIM is distributed under a BSD license.</p>"
                                "<p>For more information, source code, and binaries:</p>"
                                "<p><a href='https://sourceforge.net/projects/spimsimulator/'>https://sourceforge.net/projects/spimsimulator/</a></p>"
+                               "<p>Modified for The University of Texas at Dallas by Steven Nguyen.</p>"
                                "<p>QtSPIM is linked to the Qt library, which is distributed under the GNU Lesser General Public License version 3 and GNU Lesser General Public License version 2.1.</p>"
 "<p><a href='http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html'>GNU Lesser General Public License, version 2.1</a></p>"
 "<p><a href='http://www.gnu.org/licenses/lgpl-3.0.html'>GNU Lesser General Public License, version 3</a></p>"
