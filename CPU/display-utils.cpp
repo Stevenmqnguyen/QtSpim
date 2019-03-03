@@ -62,6 +62,7 @@ format_registers (str_stream *ss, int print_gpr_hex, int print_fpr_hex)
   char *grstr, *fpstr;
   char *grfill, *fpfill;
 
+  ss_printf (ss, " Cycles      = %08x   ", cycleCounter);
   ss_printf (ss, " PC      = %08x   ", PC);
   ss_printf (ss, "EPC     = %08x  ", CP0_EPC);
   ss_printf (ss, " Cause   = %08x  ", CP0_Cause);

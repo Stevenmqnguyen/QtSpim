@@ -1634,6 +1634,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	    }
 
 	  /* After instruction executes: */
+      cycleCounter++;
 	  PC += BYTES_PER_WORD;
 
 	  if (exception_occurred)

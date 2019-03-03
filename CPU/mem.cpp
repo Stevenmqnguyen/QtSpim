@@ -39,7 +39,7 @@
 #include "mem.h"
 
 /* Exported Variables: */
-
+reg_word cycleCounter;
 reg_word R[R_LENGTH];
 reg_word HI, LO;
 int HI_present, LO_present;

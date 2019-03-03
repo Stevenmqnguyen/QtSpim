@@ -39,6 +39,8 @@ typedef uint32 u_reg_word;
 
 #define R_LENGTH	32
 
+extern reg_word cycleCounter;
+
 extern reg_word R[R_LENGTH];
 
 extern reg_word HI, LO;
