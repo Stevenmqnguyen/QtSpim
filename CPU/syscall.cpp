@@ -198,10 +198,12 @@ do_syscall ()
 
     case EXIT_SYSCALL:
       spim_return_value = 0;
+      cycleCounter++;
       return (0);
 
     case EXIT2_SYSCALL:
       spim_return_value = R[REG_A0];	/* value passed to spim's exit() call */
+      cycleCounter++;
       return (0);
 
     case OPEN_SYSCALL:

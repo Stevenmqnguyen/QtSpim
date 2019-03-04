@@ -192,7 +192,6 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
   static reg_word *delayed_load_addr1 = NULL, delayed_load_value1;
   static reg_word *delayed_load_addr2 = NULL, delayed_load_value2;
   int step, step_size, next_step;
-
   PC = initial_PC;
   if (!bare_machine && mapped_io)
     next_step = IO_INTERVAL;
